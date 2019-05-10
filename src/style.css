@@ -283,7 +283,7 @@ a {
 section a:after {
   position: relative;
   content: "\a0";
-  background-image: url(vector.svg);
+  background-image: url(Vector.svg);
   background-position: center;
   background-repeat: no-repeat;
   padding: 0em 0.4em;
