@@ -11,7 +11,7 @@ nav {
   left: 0;
   display: flex;
   width: 93%;
-  padding: 2.5vw;
+  padding: 2.5vw 2.5vw 2.5vw 5vw;
   justify-content: space-between;
   color: white;
 }
