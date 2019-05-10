@@ -2,6 +2,7 @@ body {
   font-family: "Nunito", sans-serif;
   padding: 0;
   margin: 0;
+  background-color: #E5E5E5;
 }
 
 nav {
@@ -9,7 +10,7 @@ nav {
   top: 0;
   left: 0;
   display: flex;
-  width: 90%;
+  width: 93%;
   padding: 2.5vw;
   justify-content: space-between;
   color: white;
@@ -40,11 +41,19 @@ ul li:last-child {
 
 nav ul li a {
   color: white;
+}
+
+nav button,
+nav ul li a {
   font-size: 1.5vw;
+  line-height: 2vw;
+  font-style: normal;
+  font-weight: 600;
 }
 
 nav button {
   border-radius: 3px;
+  color:  #1B264B;
 }
 
 button {
@@ -56,6 +65,9 @@ button {
   flex-direction: column;
   justify-content: flex-end;
   font-size: 2vw;
+  font-style: normal;
+  font-weight: 900;
+
   height: 5vw;
   width: 5vw;
   background-image: url(Rectangle8.svg);
@@ -136,21 +148,32 @@ h1 {
   margin: 0;
   position: absolute;
   margin-top: 11vw;
-  margin-left: 2vw;
-  font-size: 3.9vw;
+  margin-left: 5vw;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.47vw;
+  letter-spacing: 0.02em;
+  line-height: 7.08vw;
 }
 
 span {
   display: block;
-  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25vw;
+  line-height: 2.57vw;
+  letter-spacing: 0.02em;
 }
 
 header > span {
   display: block;
   position: absolute;
   margin-top: 17vw;
-  margin-left: 2vw;
-  font-size: 2.7vw;
+  margin-left: 5vw;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5.14vw;
   width: 45vw;
 }
 
@@ -171,8 +194,14 @@ header > span {
   height: 21vw;
 }
 
-h2 {
-  font-size: 2vw;
+h2,
+a {
+  font-size: 1.67vw;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.3vw;
+  color: #333333;
 }
 
 section {
@@ -239,21 +268,26 @@ section {
 }
 
 h3 {
-  font-size: 3vw;
+  font-size: 3.125vw;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 4.72vw;
   color: #076572;
 }
 
 a {
-  font-size: 2vw;
   color: black;
   text-decoration: none;
 }
 
 section a:after {
   position: relative;
-  content: url(Vector.svg);
-  top: 0.1em;
-  padding: 0.3em;
+  content: "\a0";
+  background-image: url(vector.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0em 0.4em;
+  margin-left: 0.3em;
   box-sizing: content-box;
 }
 
@@ -304,6 +338,10 @@ section a:after {
   justify-content: space-between;
 }
 
+.wallets{
+  background-color:  #FFFFFF;
+}
+
 .wallets > div:first-child {
   position: absolute;
   margin-left: 24vw;
@@ -352,8 +390,14 @@ footer {
 }
 
 footer input,
-footer button {
-  font-size: 1.2vw;
+footer button,
+footer a {
+  font-size: 1.11vw;
+  line-height: 1.32vw;
+  font-weight: 300;
+}
+footer input,
+footer button{
   height: 3vw;
   margin: 0;
   padding: 0 1vw;
@@ -386,7 +430,6 @@ footer input[type="text"] {
 
 .footer_content a {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.2vw;
 }
 
 a:hover,
